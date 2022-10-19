@@ -101,12 +101,12 @@ class forca:
               print()
               print('\nLetras acertadas: ')
               for a in self.acertos:
-                     print(a , end = '')
+                     print(a , end = ' ')
               print()
               print('\nLetras erradas: ')
               print()
               for a in self.erros:
-                     print(a , end = '')
+                     print(a , end = ' ')
               print()
               print('-=' *15)
               print()
