@@ -141,6 +141,7 @@ class forca:
               print('_' * len(self.palavra))
               
               while True:
+                     self.clenar()
                      self.mostrar_forca()
                      self.adivinha(input('Digite uma letra: '))
                      
@@ -157,7 +158,15 @@ class forca:
                      
                      for c in self.oculto:
                             print(c, end = ' ')
-                     
+         
+       def clenar(self):
+              print()
+              print()
+              print()
+              print()
+              print()
+              print()       
+
 
 
 game = forca()
